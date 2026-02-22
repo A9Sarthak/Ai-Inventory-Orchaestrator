@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <defs>
+    <radialGradient id="bg2" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#fef2f2"/>
+      <stop offset="100%" stop-color="#fecaca"/>
+    </radialGradient>
+  </defs>
+  
+  <rect width="400" height="300" fill="url(#bg2)"/>
+  
+  <!-- Bowl shadow -->
+  <ellipse cx="200" cy="265" rx="130" ry="16" fill="#00000008"/>
+  
+  <!-- Bowl -->
+  <ellipse cx="200" cy="220" rx="140" ry="35" fill="#e2e8f0"/>
+  <path d="M60 220 Q80 280 200 280 Q320 280 340 220" fill="#f1f5f9"/>
+  <ellipse cx="200" cy="220" rx="130" ry="28" fill="white"/>
+  
+  <!-- Sauce base -->
+  <ellipse cx="200" cy="215" rx="120" ry="22" fill="#dc2626" opacity="0.7"/>
+  <ellipse cx="200" cy="212" rx="115" ry="20" fill="#ef4444" opacity="0.6"/>
+  
+  <!-- Rigatoni tubes -->
+  <rect x="140" y="180" width="30" height="50" rx="8" fill="#fde68a" transform="rotate(-15 155 205)"/>
+  <rect x="143" y="183" width="24" height="44" rx="6" fill="#fbbf24" transform="rotate(-15 155 205)" opacity="0.6"/>
+  
+  <rect x="175" y="175" width="28" height="48" rx="8" fill="#fde68a" transform="rotate(5 189 199)"/>
+  <rect x="178" y="178" width="22" height="42" rx="6" fill="#fbbf24" transform="rotate(5 189 199)" opacity="0.6"/>
+  
+  <rect x="210" y="178" width="30" height="46" rx="8" fill="#fde68a" transform="rotate(-8 225 201)"/>
+  <rect x="213" y="181" width="24" height="40" rx="6" fill="#fbbf24" transform="rotate(-8 225 201)" opacity="0.6"/>
+  
+  <rect x="245" y="182" width="26" height="44" rx="8" fill="#fde68a" transform="rotate(12 258 204)"/>
+  <rect x="248" y="185" width="20" height="38" rx="6" fill="#fbbf24" transform="rotate(12 258 204)" opacity="0.6"/>
+  
+  <rect x="155" y="195" width="28" height="40" rx="8" fill="#fde68a" transform="rotate(20 169 215)"/>
+  <rect x="158" y="198" width="22" height="34" rx="6" fill="#fbbf24" transform="rotate(20 169 215)" opacity="0.6"/>
+  
+  <rect x="220" y="192" width="26" height="42" rx="8" fill="#fde68a" transform="rotate(-18 233 213)"/>
+  <rect x="223" y="195" width="20" height="36" rx="6" fill="#fbbf24" transform="rotate(-18 233 213)" opacity="0.6"/>
+  
+  <!-- Sauce splashes over pasta -->
+  <circle cx="170" cy="195" r="6" fill="#dc2626" opacity="0.5"/>
+  <circle cx="215" cy="190" r="5" fill="#dc2626" opacity="0.4"/>
+  <circle cx="250" cy="198" r="4" fill="#dc2626" opacity="0.45"/>
+  <circle cx="190" cy="202" r="7" fill="#b91c1c" opacity="0.3"/>
+  
+  <!-- Chili flakes -->
+  <circle cx="180" cy="188" r="1.5" fill="#991b1b"/>
+  <circle cx="230" cy="192" r="1.5" fill="#991b1b"/>
+  <circle cx="160" cy="200" r="1" fill="#991b1b"/>
+  <circle cx="245" cy="195" r="1.5" fill="#991b1b"/>
+  
+  <!-- Parmesan shavings -->
+  <rect x="185" y="178" width="12" height="4" rx="2" fill="#fef9c3" opacity="0.8" transform="rotate(-20 191 180)"/>
+  <rect x="220" y="182" width="10" height="3" rx="1.5" fill="#fef9c3" opacity="0.7" transform="rotate(15 225 183)"/>
+  <rect x="165" y="190" width="8" height="3" rx="1.5" fill="#fef9c3" opacity="0.75" transform="rotate(-10 169 191)"/>
+  
+  <!-- Basil leaves -->
+  <path d="M195 170 Q200 160 210 165 Q205 172 195 170Z" fill="#16a34a"/>
+  <path d="M200 172 Q210 162 218 168 Q210 175 200 172Z" fill="#22c55e"/>
+  <line x1="200" y1="171" x2="210" y2="166" stroke="#15803d" stroke-width="0.5"/>
+  
+  <path d="M235 175 Q240 165 248 170 Q242 177 235 175Z" fill="#16a34a"/>
+  <path d="M238 177 Q246 168 252 173 Q245 179 238 177Z" fill="#22c55e"/>
+  
+  <!-- Steam wisps -->
+  <path d="M180 160 Q175 145 185 135" stroke="#94a3b8" stroke-width="1.5" fill="none" opacity="0.2" stroke-linecap="round"/>
+  <path d="M210 155 Q215 140 205 130" stroke="#94a3b8" stroke-width="1.5" fill="none" opacity="0.15" stroke-linecap="round"/>
+  <path d="M240 158 Q235 143 245 133" stroke="#94a3b8" stroke-width="1.5" fill="none" opacity="0.2" stroke-linecap="round"/>
+</svg>

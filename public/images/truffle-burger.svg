@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#fff7ed"/>
+      <stop offset="100%" stop-color="#fed7aa"/>
+    </radialGradient>
+    <radialGradient id="pattyShine" cx="35%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#92400e" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#451a03"/>
+    </radialGradient>
+  </defs>
+  
+  <rect width="400" height="300" fill="url(#bg)"/>
+  
+  <!-- Plate shadow -->
+  <ellipse cx="200" cy="260" rx="140" ry="18" fill="#00000010"/>
+  
+  <!-- Bottom bun -->
+  <ellipse cx="200" cy="210" rx="100" ry="22" fill="#d97706"/>
+  <ellipse cx="200" cy="206" rx="96" ry="18" fill="#f59e0b"/>
+  <ellipse cx="200" cy="204" rx="90" ry="15" fill="#fbbf24"/>
+  
+  <!-- Lettuce peeking out -->
+  <path d="M110 195 Q140 185 160 192 Q180 182 200 190 Q220 180 240 188 Q260 178 280 190 Q290 185 295 192" 
+    fill="#22c55e" opacity="0.8"/>
+  <path d="M115 196 Q135 188 155 195 Q175 186 195 193 Q215 183 235 191 Q255 182 275 193" 
+    fill="#4ade80" opacity="0.6"/>
+  
+  <!-- Cheese slice -->
+  <path d="M108 190 L115 175 L290 175 L295 190 Q250 195 200 195 Q150 195 108 190Z" fill="#fcd34d" opacity="0.85"/>
+  <path d="M108 190 L100 200 L105 195Z" fill="#fbbf24" opacity="0.7"/>
+  <path d="M295 190 L302 200 L298 195Z" fill="#fbbf24" opacity="0.7"/>
+  
+  <!-- Patty -->
+  <ellipse cx="200" cy="175" rx="95" ry="20" fill="url(#pattyShine)"/>
+  <ellipse cx="200" cy="172" rx="90" ry="16" fill="#78350f"/>
+  
+  <!-- Grill marks -->
+  <line x1="140" y1="168" x2="260" y2="168" stroke="#451a03" stroke-width="2" opacity="0.4"/>
+  <line x1="145" y1="175" x2="255" y2="175" stroke="#451a03" stroke-width="2" opacity="0.3"/>
+  
+  <!-- Truffle aioli drips -->
+  <circle cx="160" cy="165" r="3" fill="#1c1917" opacity="0.5"/>
+  <circle cx="220" cy="168" r="4" fill="#1c1917" opacity="0.4"/>
+  <circle cx="240" cy="163" r="2.5" fill="#1c1917" opacity="0.5"/>
+  <circle cx="180" cy="170" r="2" fill="#1c1917" opacity="0.35"/>
+  
+  <!-- Top bun -->
+  <path d="M110 165 Q110 100 200 90 Q290 100 290 165 Q250 170 200 170 Q150 170 110 165Z" fill="#d97706"/>
+  <path d="M115 163 Q115 105 200 95 Q285 105 285 163 Q245 168 200 168 Q155 168 115 163Z" fill="#f59e0b"/>
+  <path d="M120 160 Q120 110 200 100 Q280 110 280 160 Q240 165 200 165 Q160 165 120 160Z" fill="#fbbf24"/>
+  
+  <!-- Sesame seeds -->
+  <ellipse cx="160" cy="125" rx="4" ry="2.5" fill="#fef3c7" transform="rotate(-15 160 125)"/>
+  <ellipse cx="200" cy="110" rx="4" ry="2.5" fill="#fef3c7" transform="rotate(10 200 110)"/>
+  <ellipse cx="235" cy="120" rx="4" ry="2.5" fill="#fef3c7" transform="rotate(-5 235 120)"/>
+  <ellipse cx="180" cy="140" rx="3.5" ry="2" fill="#fef3c7" transform="rotate(20 180 140)"/>
+  <ellipse cx="220" cy="138" rx="3.5" ry="2" fill="#fef3c7" transform="rotate(-10 220 138)"/>
+  <ellipse cx="250" cy="140" rx="3" ry="2" fill="#fef3c7" transform="rotate(5 250 140)"/>
+  <ellipse cx="150" cy="145" rx="3" ry="2" fill="#fef3c7" transform="rotate(-8 150 145)"/>
+  
+  <!-- Highlight on bun -->
+  <path d="M160 115 Q180 105 220 108 Q240 112 250 120" stroke="white" stroke-width="2" opacity="0.2" fill="none" stroke-linecap="round"/>
+</svg>

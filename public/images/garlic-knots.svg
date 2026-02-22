@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <defs>
+    <radialGradient id="bg6" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#fefce8"/>
+      <stop offset="100%" stop-color="#fde68a"/>
+    </radialGradient>
+    <radialGradient id="knotShine" cx="35%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </radialGradient>
+  </defs>
+  
+  <rect width="400" height="300" fill="url(#bg6)"/>
+  
+  <!-- Paper/basket -->
+  <path d="M80 250 Q100 180 200 175 Q300 180 320 250 Q280 265 200 265 Q120 265 80 250Z" fill="#fef3c7" opacity="0.5"/>
+  <path d="M85 248 Q105 185 200 180 Q295 185 315 248" stroke="#d97706" stroke-width="1" opacity="0.2" fill="none"/>
+  
+  <!-- Garlic knot 1 (center) -->
+  <path d="M180 195 Q175 175 195 170 Q215 165 220 180 Q225 195 210 200 Q195 210 180 195Z" fill="url(#knotShine)"/>
+  <path d="M183 193 Q180 178 197 174 Q212 170 216 182 Q220 193 208 197 Q196 205 183 193Z" fill="#fcd34d" opacity="0.5"/>
+  <path d="M190 185 Q195 178 205 180 Q210 185 205 190 Q198 194 190 185Z" fill="#fbbf24" opacity="0.3"/>
+  
+  <!-- Garlic knot 2 (left) -->
+  <path d="M130 215 Q125 195 145 190 Q165 185 170 200 Q175 215 160 220 Q145 228 130 215Z" fill="url(#knotShine)"/>
+  <path d="M133 213 Q130 198 148 194 Q162 190 166 202 Q170 213 158 217 Q146 224 133 213Z" fill="#fcd34d" opacity="0.5"/>
+  
+  <!-- Garlic knot 3 (right) -->
+  <path d="M235 210 Q230 190 250 185 Q270 180 275 195 Q280 210 265 215 Q250 225 235 210Z" fill="url(#knotShine)"/>
+  <path d="M238 208 Q235 193 253 189 Q267 185 271 197 Q275 208 263 213 Q251 222 238 208Z" fill="#fcd34d" opacity="0.5"/>
+  
+  <!-- Garlic knot 4 (back left) -->
+  <path d="M155 190 Q152 172 170 168 Q188 164 192 178 Q196 192 180 196 Q165 202 155 190Z" fill="#d97706"/>
+  <path d="M158 188 Q156 175 172 171 Q185 168 188 180 Q192 190 178 193 Q166 198 158 188Z" fill="#f59e0b" opacity="0.5"/>
+  
+  <!-- Garlic knot 5 (back right) -->
+  <path d="M210 188 Q207 170 225 166 Q243 162 247 176 Q251 190 235 194 Q220 200 210 188Z" fill="#d97706"/>
+  <path d="M213 186 Q211 173 227 170 Q240 167 243 178 Q247 188 233 192 Q221 197 213 186Z" fill="#f59e0b" opacity="0.5"/>
+  
+  <!-- Butter glaze shine -->
+  <circle cx="190" cy="182" r="3" fill="white" opacity="0.3"/>
+  <circle cx="150" cy="202" r="2.5" fill="white" opacity="0.25"/>
+  <circle cx="255" cy="198" r="2.5" fill="white" opacity="0.25"/>
+  <circle cx="172" cy="178" r="2" fill="white" opacity="0.2"/>
+  <circle cx="230" cy="176" r="2" fill="white" opacity="0.2"/>
+  
+  <!-- Parsley flecks -->
+  <circle cx="185" cy="188" r="1.5" fill="#16a34a" opacity="0.7"/>
+  <circle cx="195" cy="195" r="1" fill="#22c55e" opacity="0.6"/>
+  <circle cx="145" cy="208" r="1.2" fill="#16a34a" opacity="0.65"/>
+  <circle cx="160" cy="215" r="1" fill="#22c55e" opacity="0.5"/>
+  <circle cx="250" cy="205" r="1.2" fill="#16a34a" opacity="0.7"/>
+  <circle cx="265" cy="210" r="1" fill="#22c55e" opacity="0.55"/>
+  <circle cx="175" cy="175" r="1" fill="#16a34a" opacity="0.6"/>
+  <circle cx="225" cy="173" r="1.2" fill="#22c55e" opacity="0.5"/>
+  
+  <!-- Garlic bits -->
+  <rect x="188" y="197" width="3" height="2" rx="1" fill="#fef9c3" opacity="0.8"/>
+  <rect x="148" y="212" width="2.5" height="2" rx="1" fill="#fef9c3" opacity="0.7"/>
+  <rect x="258" y="202" width="2.5" height="2" rx="1" fill="#fef9c3" opacity="0.7"/>
+  
+  <!-- Butter drip -->
+  <path d="M192 200 Q195 205 193 210" stroke="#fbbf24" stroke-width="1.5" fill="none" opacity="0.4" stroke-linecap="round"/>
+</svg>

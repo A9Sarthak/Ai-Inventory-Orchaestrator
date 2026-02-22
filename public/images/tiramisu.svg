@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <defs>
+    <radialGradient id="bg5" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#fafaf9"/>
+      <stop offset="100%" stop-color="#e7e5e4"/>
+    </radialGradient>
+  </defs>
+  
+  <rect width="400" height="300" fill="url(#bg5)"/>
+  
+  <!-- Plate shadow -->
+  <ellipse cx="200" cy="260" rx="120" ry="14" fill="#00000008"/>
+  
+  <!-- Plate -->
+  <ellipse cx="200" cy="245" rx="130" ry="20" fill="#d6d3d1"/>
+  <ellipse cx="200" cy="243" rx="125" ry="18" fill="#e7e5e4"/>
+  <ellipse cx="200" cy="241" rx="120" ry="16" fill="white"/>
+  
+  <!-- Tiramisu slice - bottom layer (ladyfingers) -->
+  <path d="M130 230 L135 190 L270 190 L275 230 Q250 240 200 240 Q150 240 130 230Z" fill="#d97706"/>
+  <path d="M133 228 L137 193 L267 193 L272 228 Q248 237 200 237 Q153 237 133 228Z" fill="#f59e0b" opacity="0.6"/>
+  
+  <!-- Coffee soak lines on ladyfinger -->
+  <line x1="145" y1="200" x2="145" y2="225" stroke="#92400e" stroke-width="1" opacity="0.3"/>
+  <line x1="165" y1="198" x2="165" y2="228" stroke="#92400e" stroke-width="1" opacity="0.25"/>
+  <line x1="185" y1="197" x2="185" y2="230" stroke="#92400e" stroke-width="1" opacity="0.3"/>
+  <line x1="205" y1="197" x2="205" y2="230" stroke="#92400e" stroke-width="1" opacity="0.25"/>
+  <line x1="225" y1="198" x2="225" y2="228" stroke="#92400e" stroke-width="1" opacity="0.3"/>
+  <line x1="245" y1="200" x2="245" y2="225" stroke="#92400e" stroke-width="1" opacity="0.25"/>
+  
+  <!-- Mascarpone cream layer -->
+  <path d="M132 195 Q135 175 200 172 Q265 175 272 195 Q250 198 200 198 Q150 198 132 195Z" fill="#fefce8"/>
+  <path d="M134 193 Q138 178 200 175 Q262 178 268 193 Q248 196 200 196 Q152 196 134 193Z" fill="#fffbeb"/>
+  
+  <!-- Second ladyfinger layer -->
+  <path d="M135 178 L138 160 L265 160 L268 178 Q248 183 200 183 Q152 183 135 178Z" fill="#d97706" opacity="0.9"/>
+  <path d="M137 176 L140 163 L263 163 L266 176 Q246 180 200 180 Q155 180 137 176Z" fill="#f59e0b" opacity="0.5"/>
+  
+  <!-- Top mascarpone layer -->
+  <path d="M136 165 Q140 148 200 145 Q260 148 268 165 Q248 168 200 168 Q152 168 136 165Z" fill="#fefce8"/>
+  <path d="M138 163 Q142 150 200 147 Q258 150 265 163 Q246 166 200 166 Q154 166 138 163Z" fill="#fffbeb"/>
+  
+  <!-- Cocoa powder dusting -->
+  <ellipse cx="200" cy="155" rx="58" ry="10" fill="#78350f" opacity="0.5"/>
+  <ellipse cx="200" cy="154" rx="55" ry="9" fill="#92400e" opacity="0.3"/>
+  
+  <!-- Cocoa powder particles -->
+  <circle cx="170" cy="153" r="0.8" fill="#451a03" opacity="0.4"/>
+  <circle cx="185" cy="151" r="0.6" fill="#451a03" opacity="0.35"/>
+  <circle cx="200" cy="152" r="0.8" fill="#451a03" opacity="0.4"/>
+  <circle cx="215" cy="154" r="0.7" fill="#451a03" opacity="0.35"/>
+  <circle cx="230" cy="153" r="0.8" fill="#451a03" opacity="0.4"/>
+  <circle cx="190" cy="156" r="0.6" fill="#451a03" opacity="0.3"/>
+  <circle cx="210" cy="155" r="0.7" fill="#451a03" opacity="0.35"/>
+  
+  <!-- Decorative cocoa powder scatter -->
+  <circle cx="160" cy="240" r="0.5" fill="#78350f" opacity="0.2"/>
+  <circle cx="235" cy="238" r="0.5" fill="#78350f" opacity="0.15"/>
+  <circle cx="140" cy="242" r="0.4" fill="#78350f" opacity="0.2"/>
+  
+  <!-- Coffee bean decoration -->
+  <ellipse cx="260" cy="235" rx="6" ry="4" fill="#78350f" transform="rotate(-30 260 235)"/>
+  <line x1="257" y1="233" x2="263" y2="237" stroke="#451a03" stroke-width="0.8" opacity="0.5"/>
+  
+  <ellipse cx="268" cy="238" rx="5" ry="3.5" fill="#92400e" transform="rotate(10 268 238)"/>
+  <line x1="265" y1="237" x2="271" y2="239" stroke="#451a03" stroke-width="0.8" opacity="0.4"/>
+</svg>
