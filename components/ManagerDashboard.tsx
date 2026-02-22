@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { API_URL } from '../lib/config';
 import { useNavigate } from 'react-router-dom';
 import {
   Utensils, LayoutDashboard, Archive, DollarSign, Workflow, ShieldCheck, Settings,
@@ -27,7 +28,7 @@ const ManagerDashboard: React.FC = () => {
   const fetchDishes = async () => {
     try {
       setDishesLoading(true);
-      const res = await fetch('http://localhost:5000/api/dishes');
+      const res = await fetch(`${API_URL}/api/dishes`);
       const json = await res.json();
       if (json.success) setDishes(json.data);
     } catch {
@@ -44,7 +45,7 @@ const ManagerDashboard: React.FC = () => {
   const fetchInventory = async () => {
     try {
       setInventoryLoading(true);
-      const res = await fetch('http://localhost:5000/api/inventory');
+      const res = await fetch(`${API_URL}/api/inventory`);
       const json = await res.json();
       if (json.success) setInventory(json.data);
     } catch {
@@ -117,7 +118,7 @@ const ManagerDashboard: React.FC = () => {
       const formData = new FormData();
       formData.append('file', csvFile);
 
-      const res = await fetch('http://localhost:5000/api/inventory/upload-csv', {
+      const res = await fetch(`${API_URL}/api/inventory/upload-csv`, {
         method: 'POST',
         body: formData,
       });
@@ -185,7 +186,7 @@ const ManagerDashboard: React.FC = () => {
     try {
       setSubmitting(true);
 
-      const response = await fetch('http://localhost:5000/api/dishes', {
+      const response = await fetch(`${API_URL}/api/dishes`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({

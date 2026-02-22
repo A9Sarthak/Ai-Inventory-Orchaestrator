@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { API_URL } from '../lib/config';
 import { Utensils, Timer, Flame, Sparkles, Loader2 } from 'lucide-react';
 
 // Fallback gradients and images for API dishes
@@ -51,7 +52,7 @@ const DisplayBoard: React.FC = () => {
         setLoading(true);
         setError(null);
 
-        const response = await fetch('http://localhost:5000/api/dishes');
+        const response = await fetch(`${API_URL}/api/dishes`);
 
         if (!response.ok) {
           throw new Error(`Server responded with ${response.status}`);
